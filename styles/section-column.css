@@ -1,0 +1,61 @@
+.section-columns {
+  padding: 3em 2em;
+}
+
+.section-columns .section-header {
+  text-align: center;
+}
+
+.section-columns .section-content {
+  display: flex;
+  gap: 2em;
+}
+
+.section-columns .section-content article {
+  flex: 1 1 30%;
+  text-align: center;
+  padding: 1em;
+}
+
+.section-columns .section-content article p {
+  padding: 1em 2em;
+}
+
+.section-coaches .section-content article p {
+  color: #afb1b3;
+}
+
+.section-columns h4 {
+  padding: 0.5em 0;
+}
+
+.section-features {
+  background: #fff;
+}
+
+.section-features img {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.container h3 {
+  font-size: 2.5em;
+}
+
+.container h3:after {
+  display: block;
+  content: "";
+  margin: 1em auto;
+  height: 3px;
+  width: 2.5ch;
+  background-color: red;
+  border-radius: 0.4em;
+}
+
+.section-features h4 {
+  color: #d01919;
+}
+
+.section-coaches h5 {
+  color: #d01919;
+}
